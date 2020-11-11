@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Car Game</string>
+    <string name="string_username">Username</string>
+    <string name="string_password">Password</string>
+    <string name="string_repeat_password">Repeat password</string>
+    <string name="string_login">Login</string>
+    <string name="string_register">Register</string>
+    <string name="start_game">Start</string>
+    <string name="splash_text">Based on real story...</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

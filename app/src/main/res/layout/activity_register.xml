@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trafic_background"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="234dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameTextView" />
+
+    <TextView
+        android:id="@+id/usernameTextView"
+        android:layout_width="234dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="32dp"
+        android:text="@string/string_username"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/passwordTextView"
+        android:layout_width="234dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/string_password"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernameEditText" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="234dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="88dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordTextView" />
+
+    <TextView
+        android:id="@+id/okTV"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginTop="28dp"
+        android:text="@android:string/ok"
+        android:textAlignment="center"
+        android:textColor="#FFEA00"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/cancelTV"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/repeatPasswordEditText"
+        tools:text="@android:string/ok" />
+
+    <TextView
+        android:id="@+id/cancelTV"
+        android:layout_width="wrap_content"
+        android:layout_height="44dp"
+        android:layout_marginTop="28dp"
+        android:text="@android:string/cancel"
+        android:textAlignment="center"
+        android:textColor="#FFEA00"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/okTV"
+        app:layout_constraintTop_toBottomOf="@+id/repeatPasswordEditText" />
+
+    <TextView
+        android:id="@+id/repeatPasswordTextView"
+        android:layout_width="234dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="13dp"
+        android:text="@string/string_repeat_password"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordEditText" />
+
+    <EditText
+        android:id="@+id/repeatPasswordEditText"
+        android:layout_width="234dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="89dp"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="88dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/repeatPasswordTextView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
